@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnSaludApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SaludApp"
+
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnImcApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC App">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnTodoApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TODO App">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnSuperHeroApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="SuperHeroList App">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnPokedex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="PokeDex App">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Setting App">
+
+    </Button>
+</LinearLayout>
